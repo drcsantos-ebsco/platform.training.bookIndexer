@@ -22,6 +22,19 @@ Training project demonstrating AWS SQS receive messages and ElasticSearch Indexi
 The application uses your **default** credential profile by reading from the credentials file located at (~/.aws/credentials).
 For more information about see [Configuration and Credential Files](http://docs.aws.amazon.com/cli/latest/userguide/cli-config-files.html)
 
+## Application Config
+```json
+{
+    "sqs": {
+        "queueUrl": "https://sqs.us-east-2.amazonaws.com/404669482207/book-track.fifo"
+    },
+    "elasticSearch": {
+        "host": "127.0.0.1:9200",
+        "log": "trace"
+    }
+}
+```
+
 ## Run
 
 `$ npm start`
