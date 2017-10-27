@@ -16,6 +16,12 @@ Training project demonstrating AWS SQS receive messages and ElasticSearch Indexi
  }
 ```
 
+## Set up
+
+### AWS Credentials
+The application uses your **default** credential profile by reading from the credentials file located at (~/.aws/credentials).
+For more information about see [Configuration and Credential Files](http://docs.aws.amazon.com/cli/latest/userguide/cli-config-files.html)
+
 ## Run
 
 `$ npm start`
